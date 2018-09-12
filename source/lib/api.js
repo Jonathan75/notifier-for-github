@@ -38,6 +38,7 @@ export const getHeaders = async () => {
 
 	return {
 		/* eslint-disable quote-props */
+		'Content-Type': 'application/json',
 		'Authorization': `token ${token}`,
 		'If-Modified-Since': ''
 		/* eslint-enable quote-props */
